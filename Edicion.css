@@ -4,6 +4,23 @@
     border: none;
   }
 
+  .crear{
+    color: rgb(138, 137, 137);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+  }
+  .sesion{
+    color: white ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 5px;
+    background-color: black;
+      border-radius: 20px;
+      margin-right: 0;
+  }
+
 .elementos li {
     flex-basis: 30%;
     margin: 30px 0;
@@ -24,6 +41,12 @@
 }
 
 @media (max-width: 500px) {
+  .crear{
+    font-size: 18px;
+  }
+  .sesion{
+    font-size: 18px;
+  }
   .elementos li {
     flex-basis: 100%;
     margin: 30px 0;
